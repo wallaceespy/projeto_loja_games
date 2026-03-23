@@ -1,3 +1,149 @@
+# 🎮 Projeto Loja Games
+
+![GitHub repo size](https://img.shields.io/github/repo-size/wallaceespy/projeto_loja_games)
+![GitHub language count](https://img.shields.io/github/languages/count/wallaceespy/projeto_loja_games)
+![GitHub last commit](https://img.shields.io/github/last-commit/wallaceespy/projeto_loja_games)
+![GitHub](https://img.shields.io/github/license/wallaceespy/projeto_loja_games)
+
+---
+
+## 📌 Sobre o Projeto
+
+O **Projeto Loja Games** é uma API REST desenvolvida para gerenciar uma loja de games, permitindo o controle completo de **produtos** e **categorias**.
+
+A aplicação foi construída utilizando boas práticas de desenvolvimento backend, com foco em organização, escalabilidade e integração com banco de dados relacional.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ⚙️ NestJS  
+- 🟦 TypeScript  
+- 🗄️ MySQL  
+- 🔗 TypeORM  
+- 🧪 Insomnia  
+ 
+
+---
+
+## 📂 Estrutura do Projeto
+
+src/
+├── categoria/
+│ ├── categoria.controller.ts
+│ ├── categoria.service.ts
+│ └── categoria.entity.ts
+│
+├── produto/
+│ ├── produto.controller.ts
+│ ├── produto.service.ts
+│ └── produto.entity.ts
+│
+├── app.module.ts
+└── main.ts
+
+
+
+---
+
+## ⚙️ Funcionalidades
+
+✔️ CRUD completo de Produtos  
+✔️ CRUD completo de Categorias  
+✔️ Relacionamento entre Produtos e Categorias  
+✔️ API REST estruturada  
+✔️ Integração com banco de dados  
+
+---
+
+## 🔗 Endpoints
+
+### 📦 Produtos
+
+| Método | Rota              | Descrição              |
+|--------|------------------|----------------------|
+| GET    | /produtos        | Listar todos         |
+| GET    | /produtos/:id    | Buscar por ID        |
+| POST   | /produtos        | Criar produto        |
+| PUT    | /produtos        | Atualizar produto    |
+| DELETE | /produtos/:id    | Deletar produto      |
+
+---
+
+### 🗂️ Categorias
+
+| Método | Rota              | Descrição              |
+|--------|------------------|----------------------|
+| GET    | /categorias      | Listar todas         |
+| POST   | /categorias      | Criar categoria      |
+| PUT    | /categorias      | Atualizar categoria  |
+| DELETE | /categorias/:id  | Deletar categoria    |
+
+---
+
+## ▶️ Como Rodar o Projeto
+
+### 🔧 Pré-requisitos
+
+- Node.js instalado
+- MySQL configurado
+
+---
+
+### 📥 Clone o repositório
+
+```bash
+git clone https://github.com/wallaceespy/projeto_loja_games.git
+```
+
+### 📦 Instale as dependências
+
+```bash
+npm install
+```
+
+### 🧪 Testes da API
+
+Utilize o Insomnia.
+
+---
+
+### 📌 Melhorias Futuras
+
+* 🔐 Autenticação com JWT
+* 👤 Sistema de usuários
+* 🛒 Carrinho de compras
+* 💳 Integração com pagamentos
+* 📊 Dashboard administrativo
+
+
+👨‍💻 Autor
+
+Desenvolvido por Wallace Espece 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
